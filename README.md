@@ -15,6 +15,8 @@ The next sketch is an example how to connect the board ReadBear CC3200(TI) to up
 # Pins
  * DHT11 <==> CC3200
  *     2 <==> 8 (data)
+ *     1 <==> VCC
+ *     3 <==> gnd
 # Things to note:
  * We will use the sensor DHT11 to get the data 
  * The format to upload the data is in JSON
