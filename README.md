@@ -21,4 +21,4 @@ The next sketch is an example how to connect the board ReadBear CC3200(TI) to up
  * We will use the sensor DHT11 to get the data 
  * The format to upload the data is in JSON
  * The protocol to transmit is MQTT and we will use the library PubSubClient modified to use with Energia TI and the WiFi CC3200
- * The tutorial was designed to connect with the IoT Watson platform, consider having an account to replicate this sample
+ * The tutorial was designed to connect with the IoT Watson platform (https://internetofthings.ibmcloud.com/#), consider having an account to replicate this sample
