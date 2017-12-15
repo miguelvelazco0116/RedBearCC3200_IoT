@@ -26,8 +26,9 @@ The next sketch is an example how to connect the board ReadBear CC3200(TI) to up
  # Script
  
 * WIFI CONNECTION DATA
-* char ssid[] = "*********";            // Network SSID
-* char password[] = "***********";      // Network password
+
+*   char ssid[] = "*********"; ===> Network SSID
+*   char password[] = "***********"; ===> Network password
 
 *char broker_IBM[] = "************.messaging.internetofthings.ibmcloud.com";
 *char client_IBM[] = "*****************";
