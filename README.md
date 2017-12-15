@@ -26,14 +26,14 @@ The next sketch is an example how to connect the board ReadBear CC3200(TI) to up
  # Script
  
 * WIFI CONNECTION DATA, introduce your own WiFi data (SSID, Pwd)
-
 * char ssid[] = "***";     ===> Network SSID
 * char password[] = "***"; ===> Network password
 
 * IoT Watson - Bluemix Data
- char broker_IBM[] = "************.messaging.internetofthings.ibmcloud.com";
-* char client_IBM[] = "*****************";
+
+* char broker_IBM[] = "***.messaging.internetofthings.ibmcloud.com"; ==> Add your organization 
+* char client_IBM[] = "***"; ==> Add your Client Id (d:org:device:device Id)
 * char username_IBM[] = "use-token-auth";
-* char pwd_IBM[] = "***************";
-* int IoT_Port = 1883;
-* char topic_MQTT[] = "iot-2/evt/**********/fmt/json";
+* char pwd_IBM[] = "***"; ==> Add your own pwd,
+* int IoT_Port = 1883; ==> Bluemix allow you to connect with the port 1883 or 8883(SSL), during this example we'll use the MQTT port 1883
+* char topic_MQTT[] = "iot-2/evt/***/fmt/json"; ==> Add your event (example: CC3200)
