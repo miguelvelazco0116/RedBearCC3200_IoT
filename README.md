@@ -13,9 +13,9 @@ The next sketch is an example how to connect the board ReadBear CC3200(TI) to up
  * #include <aJSON.h>
 
 # Pins
- - DHT11 - Pin 2 <==> CC3200 - Pin 8 (data)
- - 1 <==> VCC
- - 3 <==> gnd
+ - DHT11 - Pin 1 <==> CC3200 - Pin 8 (data)
+ - DHT11 - Pin 2 <==> CC3200 - Pin VCC
+ - DHT11 - Pin 3 <==> CC3200 - Pin GND
      
 # Things to note:
  * We will use the sensor DHT11 to get the data 
