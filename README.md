@@ -1,5 +1,5 @@
 # RedBearCC3200_IoT
-The next sketch is an example how to connect the board ReadBear CC3200(TI) to upload data (temperature) to IBM Cloud - IoT Watson
+The next sketch is an example how to connect the board ReadBear CC3200(TI) to upload data (temperature/humidity) to IBM Cloud - IoT Watson
 
 # Hardware
  * Sensor DHT11 (https://hetpro-store.com/sensor-dht11/)
@@ -22,3 +22,12 @@ The next sketch is an example how to connect the board ReadBear CC3200(TI) to up
  * The format to upload the data is in JSON
  * The protocol to transmit is MQTT and we will use the library PubSubClient modified to use with Energia TI and the WiFi CC3200
  * The tutorial was designed to connect with the IoT Watson platform (https://internetofthings.ibmcloud.com/#), consider having an account to replicate this sample
+ 
+ # Script
+ 
+char broker_IBM[] = "************.messaging.internetofthings.ibmcloud.com";
+char client_IBM[] = "*****************";
+char username_IBM[] = "use-token-auth";
+char pwd_IBM[] = "***************";
+int IoT_Port = 1883;
+char topic_MQTT[] = "iot-2/evt/**********/fmt/json";
