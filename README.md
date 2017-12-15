@@ -25,9 +25,13 @@ The next sketch is an example how to connect the board ReadBear CC3200(TI) to up
  
  # Script
  
-char broker_IBM[] = "************.messaging.internetofthings.ibmcloud.com";
-char client_IBM[] = "*****************";
-char username_IBM[] = "use-token-auth";
-char pwd_IBM[] = "***************";
-int IoT_Port = 1883;
-char topic_MQTT[] = "iot-2/evt/**********/fmt/json";
+* WIFI CONNECTION DATA
+*char ssid[] = "*********";            // Network SSID
+*char password[] = "***********";      // Network password
+
+*char broker_IBM[] = "************.messaging.internetofthings.ibmcloud.com";
+*char client_IBM[] = "*****************";
+*char username_IBM[] = "use-token-auth";
+*char pwd_IBM[] = "***************";
+*int IoT_Port = 1883;
+*char topic_MQTT[] = "iot-2/evt/**********/fmt/json";
