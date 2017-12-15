@@ -27,8 +27,8 @@ void  connect_Bluemix();
 
 // WIFI CONNECTION DATA
 
-char ssid[] = "TOTALPLAY";            // Network SSID
-char password[] = "7226253410a";      // Network password
+char ssid[] = "***";            // Network SSID
+char password[] = "***";        // Network password
 
 // *********************************************************
 
@@ -59,12 +59,12 @@ char    Source01[] = "HumedadZona01";
 // Bluemix device type: IIoT
 // Bluemix device Id: IIoTD000001
 
-char broker_IBM[] = "************.messaging.internetofthings.ibmcloud.com";
-char client_IBM[] = "*****************";
+char broker_IBM[] = "***.messaging.internetofthings.ibmcloud.com";
+char client_IBM[] = "***";
 char username_IBM[] = "use-token-auth";
-char pwd_IBM[] = "***************";
+char pwd_IBM[] = "***";
 int IoT_Port = 1883;
-char topic_MQTT[] = "iot-2/evt/**********/fmt/json";
+char topic_MQTT[] = "iot-2/evt/***/fmt/json";
 
 // ************************************************************************************************************************
 // ************************************************************************************************************************
