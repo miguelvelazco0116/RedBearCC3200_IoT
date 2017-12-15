@@ -2,7 +2,7 @@
 The next sketch is an example how to connect the board ReadBear CC3200(TI) to upload data (temperature) to IBM Cloud - IoT Watson
 
 # Hardware
- * Sensor DHT11
+ * Sensor DHT11 (https://hetpro-store.com/sensor-dht11/)
  * Red Bear CC3200 (http://redbearlab.com/)
 
 # Libraries
